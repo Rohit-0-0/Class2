@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <style>
+        .width{
+            width: 150px;
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body ">
+    <div style="margin-left: 20px; background-color: rgb(123, 220, 255); margin-right: 800px; padding: 20px;">
+    <h1>Employee Application</h1>
+    <p>Please complete the form below to apply for a position with us </p>
+    <hr style="color: black;">
+    <form>
+        <label for="name" class="width">Name:</label>
+        <input type="text" id="name" name="name" placeholder="First" required>
+        <input type="text" id="name" name="name" placeholder="Last" required>
+        <br><br>
+        <label for="email" class="width">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br><br>
+        <label for="phonenumber" class="width">Phone Number:</label>
+        <input type="tel" id="phonenumber" name="phonenumber" required>
+        <span>-</span>
+        <input type="tel" id="phonenumber" name="phonenumber">
+        <br><br>
+        <label for="address" class="width">Address:</label>
+        <input type="text" id="address" name="address" placeholder="Street Address 1" style="width: 300px;" required>
+        <br><br>
+        <label for="address" class="width" class="width"></label>
+        <input type="text" id="address" name="address" placeholder="Street Address 2" style="width: 300px;">
+        <br><br>
+        <label for="address" class="width" class="width"></label>
+        <input type="text" id="address" name="address" placeholder="City" required>
+        
+        <input type="text" id="address" name="address" placeholder="Region" required>
+        <br><br>
+        <label for="address" class="width" class="width"></label>
+        <input type="text" id="address" name="address" placeholder="Postal Code" required>
+        <select id="country" name="country" required>
+            <option value="">Select Country</option>
+            <option value="India">India</option>
+            <option value="CAN">Canada</option>
+            <option value="MEX">Mexico</option>
+        </select>
+        <br><br>
+        <label for="appliedfor" class="width"> Apply For Position:</label>
+        <input type="text" id="appliedfor" name="appliedfor" required>
+        <br><br>
+        <label for="startdate" class="width">When can you start:</label>
+        <input type="date" id="startdate" name="startdate" required>
+        <br><br>
+        <label for="coverletter" class="width">Cover Letter:</label>
+        <input type="file" id="coverletter" name="coverletter" accept=".pdf, .docx" required>
+        <br><br>
+        <label for="resume" class="width">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf, .docx" required>
+        <br><br>
+        <label for="message" class="width">Enter the message as it's shown:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br><br>
+        <div style="margin-left: 50px;">
+        <input type="submit" value="Submit" style="margin-right: 20px;">
+        <input type="reset" value="Reset">
+        </div>
+    </form>
+    </div>
+</body>
+</html>

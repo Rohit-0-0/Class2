@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account opening</title>
+</head>
+<body>
+    <h1>Bank Account Opening Form</h1>
+    <form>
+        <label for="accountType"><b>Account Type:</b></label>&nbsp;&nbsp;&nbsp;
+        <label for="Monthly Salary"><b>Monthly Salary:</b></label><br>
+        
+        <select id="accountType" name="accountType">
+            <option value="savings">Savings</option>
+            <option value="current">Current</option>
+            <option value="fixed">Fixed Deposit</option>
+        </select>
+        <input type="number" id="Monthly Salary" name="Monthly Salary" placeholder="Monthly Salary">
+        <br>
+        <br>
+        <label for="Name"><b>Name:</b></label><br>
+        <input type="text" id="Name" name="Name" placeholder="First">
+        <input type="text" id="Name" name="Name" placeholder="Last">
+        <br>
+        <br>
+        <label for="address"><b>Address:</b></label><br>
+        <input type="text" id="address" name="address" placeholder="Street Address">
+        <br>
+        <br>
+        <input type="text" id="address" name="address" placeholder="street Address line 2">
+        <input type="text" id="city" name="city" placeholder="City">
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="region" name="region" placeholder="region">
+        <br>
+        <br>
+        <input type="number" id="Postal" name="Postal" placeholder="Postal">
+        <select id="state" name="state">
+            <option  disabled selected>Select State</option>
+            <option value="M.P." >Madhya Pradesh</option>
+            <option value="rajasthan">Rajasthan</option>
+            <option value="punjab">Punjab</option>
+        </select>
+
+    </form>
+</body>
+</html>
